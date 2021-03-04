@@ -1,0 +1,4 @@
+.idea
+symfony/.env
+symfony/var/
+symfony/vendor/
