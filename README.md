@@ -8,3 +8,19 @@ First, clone this repository:
 git clone https://github.com/rafalmaz/docker-symfony.git
 ```
 ...
+
+```bash
+docker-compose up
+```
+
+...
+
+```bash
+docker exec -it  symfony-php-fpm bash
+```
+
+...
+
+```bash
+composer install
+```
