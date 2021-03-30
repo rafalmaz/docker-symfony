@@ -1,7 +1,5 @@
 FROM php:7.4-fpm
 
-COPY docker/php/php.ini /usr/local/etc/php/conf.d/docker-php-config.ini
-
 RUN apt-get update && apt-get -y --no-install-recommends \
         install \
         ssh \
